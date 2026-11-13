@@ -1,0 +1,49 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python / simulation cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.omnigibson/
+
+# Large or generated data: publish selected evidence separately
+*.mp4
+*.mov
+*.avi
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.usd
+*.usda
+*.usdc
+*.zip
+*.log
+
+# Editor and macOS
+.DS_Store
+.idea/
+.vscode/
+
+# Project kit and study pack: same rules, kept at the repository root
+*.pkl
+*.pickle
+*.onnx
+*.ipynb
+videos/
+private/
+
+# Study pack figures and documents are committed on purpose:
+# study/assets/*.png and study/*.docx are deliverables, not generated caches.

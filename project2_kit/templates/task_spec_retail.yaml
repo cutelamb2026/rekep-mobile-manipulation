@@ -1,0 +1,21 @@
+# Design template, not executable task until scene + constraint files are validated.
+scenario: retail
+task_id: retail_single_item_pick_to_basket
+robot: Fetch
+scene_file: "TODO: actual valid JSON"
+object_instance: "TODO: actual product object_registry name"
+place_target_instance: "TODO: actual basket/container name"
+observation_source: "sim_rgbd"
+expected_stage_order: [approach, pregrasp, grasp, transport, place]
+keypoints:
+  - {name: item_center, frame: world, semantics: product_reference, source: TODO}
+  - {name: grasp_region, frame: world, semantics: safe_grasp_region, source: TODO}
+  - {name: basket_center, frame: world, semantics: placement_target, source: TODO}
+criteria:
+  base_distance_m: null
+  ee_grasp_error_m: null
+  place_translation_error_m: null
+  stable_after_release_s: null
+program_dir: "TODO: scene-specific constraints / metadata"
+scene_ready: false
+full_rollout_verified: false

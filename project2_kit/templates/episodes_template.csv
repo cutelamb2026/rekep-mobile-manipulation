@@ -1,0 +1,1 @@
+run_id,scenario,layout_id,placement_id,seed,method,scene_file,program_dir,config_hash,git_commit,command,exit_code,video_path,stage_count,grasp_success,place_stable,success,failure_stage,failure_code,ik_feasible,ee_pos_error_m,place_pos_error_m,plan_time_s,notes

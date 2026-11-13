@@ -1,0 +1,1 @@
+scenario,task_id,keypoint_id,object_instance,semantic_name,frame,xyz_m,estimate_method,oracle_or_observation,visible,stage_used,notes

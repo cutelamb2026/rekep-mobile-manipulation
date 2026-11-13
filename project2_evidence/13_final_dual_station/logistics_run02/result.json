@@ -1,0 +1,228 @@
+{
+  "status": "finished",
+  "task": "industrial_logistics_material_transfer",
+  "perception_used_for_grasp": false,
+  "success": true,
+  "box_start": [
+    -0.13982349634170532,
+    -0.1501985490322113,
+    0.7184999585151672
+  ],
+  "goal_B": [
+    0.04999999888241291,
+    0.30000001937150955,
+    0.7184999585151672
+  ],
+  "station_A_aabb": [
+    [
+      -0.24982400238513947,
+      -0.26019901037216187,
+      0.0
+    ],
+    [
+      -0.02982400357723236,
+      -0.04019899666309357,
+      0.6859999895095825
+    ]
+  ],
+  "station_B_aabb": [
+    [
+      -0.05999999865889549,
+      0.1900000125169754,
+      0.0
+    ],
+    [
+      0.1599999964237213,
+      0.4100000262260437,
+      0.6859999895095825
+    ]
+  ],
+  "base_displacement_m": 0.05152060232313874,
+  "frame_sync": "synchronized",
+  "vision_keypoints_count": 1,
+  "vision_driven_grasp": true,
+  "grasp_target_source": "rgbd_segmented_surface",
+  "dino_used_to_choose_grasp": false,
+  "vision_center": [
+    -0.14074774710035184,
+    -0.14585853233037274,
+    0.7186203624075244
+  ],
+  "vision_top": [
+    -0.14074774710035184,
+    -0.14585853233037274,
+    0.7511203624075243
+  ],
+  "vision_xy_audit_m": 0.004437339792837183,
+  "vision_3d_audit_m": 0.004438973026995217,
+  "simulator_mesh_registration_used": true,
+  "anchor_owners": [
+    "logistics_box_1",
+    "logistics_box_1",
+    "logistics_box_1",
+    "logistics_box_1"
+  ],
+  "anchor_positions": [
+    [
+      -0.14101217741191938,
+      -0.14816545856377478,
+      0.7509999560840441
+    ],
+    [
+      -0.1393314692426593,
+      -0.1453879450230982,
+      0.7509999497012749
+    ],
+    [
+      -0.11978167595635962,
+      -0.14640972995348195,
+      0.7509999234270893
+    ],
+    [
+      -0.1441409502211305,
+      -0.12499907284131163,
+      0.7509999271821695
+    ]
+  ],
+  "anchor_snap_m": [
+    0.0023251515474738073,
+    0.0014972623697152982,
+    0.0011187572672490473,
+    0.0035024281114418936
+  ],
+  "program_dir": "${REKEP_ROOT}/project2_evidence/13_final_dual_station/logistics_run02/program",
+  "hover_goal": [
+    0.04999999888241291,
+    0.30000001937150955,
+    0.8711203624075243
+  ],
+  "prerelease_goal": [
+    0.04999999888241291,
+    0.30000001937150955,
+    0.7761203624075244
+  ],
+  "original_grasp_depth_m": 0.1,
+  "test_grasp_depth_m": 0.04,
+  "grasp_target_center": [
+    -0.14074774710035184,
+    -0.14585853233037274,
+    0.7266203624075244
+  ],
+  "grasp_pre_target": [
+    -0.14067711840459055,
+    -0.14578204172691428,
+    0.7666202269169814
+  ],
+  "grasp_pre_adjustment_m": 0.032608958089999356,
+  "grasp_approach_axis": [
+    -0.0017657173940325843,
+    -0.0019122650864613622,
+    -0.9999966127364248
+  ],
+  "grasp_orientation_adjusted": false,
+  "pregrasp_error_m": 0.02869805761929004,
+  "grasp_verified": true,
+  "grasp_contact_error_m": 0.026695954841244877,
+  "post_grasp_position": [
+    -0.14046882092952728,
+    -0.1507633477449417,
+    0.7190092206001282
+  ],
+  "route_waypoints": [
+    [
+      -0.7454666495323181,
+      0.30000001937150955
+    ],
+    [
+      -0.5400000011175871,
+      0.30000001937150955
+    ]
+  ],
+  "route_clearance_required_m": 0.42283271136845,
+  "route_control": "differential_drive_feedback",
+  "waypoint_1_reached": true,
+  "waypoint_1_xy": [
+    -0.7540342807769775,
+    0.2673105299472809
+  ],
+  "waypoint_2_reached": true,
+  "waypoint_2_xy": [
+    -0.5680835247039795,
+    0.3183324337005615
+  ],
+  "loaded_transport_attempted": true,
+  "carry_lift_m": 0.07150673866271973,
+  "carried_base_move_m": 0.36579668494491,
+  "carried_object_move_m": 0.31194105676958483,
+  "post_transport_frame_sync": "synchronized",
+  "transport_grasp_retained": true,
+  "transport_verified": true,
+  "station_b_camera_diagnostics": [
+    {
+      "camera": "1",
+      "valid_cyan_pixels": 1276,
+      "observed_xyz": [
+        0.022970822875022834,
+        0.2896675846846009,
+        0.6910125526365343
+      ],
+      "xy_check_error_m": 0.028936751064998715
+    },
+    {
+      "camera": "0",
+      "valid_cyan_pixels": 5272,
+      "observed_xyz": [
+        0.05112108057042852,
+        0.3009623878299875,
+        0.6901257802327696
+      ],
+      "xy_check_error_m": 0.0014774901695365685
+    }
+  ],
+  "station_b_detection_attempted": true,
+  "station_b_reobserved": true,
+  "station_b_visual_xyz": [
+    0.05112108057042852,
+    0.3009623878299875,
+    0.6901257802327696
+  ],
+  "station_b_audit_xy_error_m": 0.0014774901695365685,
+  "station_b_detection": {
+    "method": "dual_camera_cyan_rgbd_roi",
+    "camera": "0",
+    "valid_pixels": 5272,
+    "estimated_world_xyz": [
+      0.05112108057042852,
+      0.3009623878299875,
+      0.6901257802327696
+    ]
+  },
+  "station_b_selected_camera": "0",
+  "runtime_constraints_updated": true,
+  "stage2_visual_target": [
+    0.05112108057042852,
+    0.3009623878299875,
+    0.8751257802327695
+  ],
+  "stage3_visual_target": [
+    0.05112108057042852,
+    0.3009623878299875,
+    0.7801257802327696
+  ],
+  "station_b_sensor_source": "post_transport_rgbd",
+  "release_called": true,
+  "box_prerelease_position": [
+    0.05701195076107979,
+    0.291120707988739,
+    0.7771645188331604
+  ],
+  "video_path": "${REKEP_ROOT}/videos/2026-11-05-17-45-19.mp4",
+  "box_final": [
+    0.08947901427745819,
+    0.3016229569911957,
+    0.7184998989105225
+  ],
+  "goal_xy_error_m": 0.039512359877380325,
+  "goal_z_error_m": 5.960464477539063e-08,
+  "success_criterion": "Grasp + release + final XY<=0.08m and Z<=0.06m"
+}

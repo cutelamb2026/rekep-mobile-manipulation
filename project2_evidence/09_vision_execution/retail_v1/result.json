@@ -1,0 +1,130 @@
+{
+  "status": "finished",
+  "task": "retail_order_picking",
+  "perception_used_for_grasp": false,
+  "success": true,
+  "order_id": "ORDER_001",
+  "target_sku": "SKU_BLUE_DRINK_001",
+  "target_object": "retail_product_1",
+  "distractor_sku": "SKU_RED_PACK_002",
+  "order_zone": "retail_order_zone_1",
+  "scenario_level": "tabletop_retail_prototype",
+  "sku_selected_by_geometry": true,
+  "box_start": [
+    -0.13982295989990234,
+    -0.1501981019973755,
+    0.7159785032272339
+  ],
+  "goal_B": [
+    -0.29998117685317993,
+    0.15002211928367615,
+    0.7159785032272339
+  ],
+  "size_m": 0.06,
+  "base_displacement_m": 0.051200664951309566,
+  "frame_sync": "synchronized",
+  "vision_keypoints_count": 2,
+  "vision_driven_grasp": true,
+  "grasp_target_source": "rgbd_segmented_surface",
+  "dino_used_to_choose_grasp": false,
+  "vision_center": [
+    -0.14098026870725083,
+    -0.1458336099172493,
+    0.7160995029196789
+  ],
+  "vision_top": [
+    -0.14098026870725083,
+    -0.1458336099172493,
+    0.746099502919679
+  ],
+  "vision_xy_audit_m": 0.004515324439400843,
+  "vision_3d_audit_m": 0.004516945396905119,
+  "simulator_mesh_registration_used": true,
+  "anchor_owners": [
+    "retail_product_1",
+    "retail_product_1",
+    "retail_product_1",
+    "retail_product_1"
+  ],
+  "anchor_positions": [
+    [
+      -0.14280215206340885,
+      -0.1464431194167748,
+      0.7459784966593871
+    ],
+    [
+      -0.14220194043050982,
+      -0.14633402707369195,
+      0.7459784956852863
+    ],
+    [
+      -0.11840025944562808,
+      -0.14763222629848488,
+      0.7459784711063193
+    ],
+    [
+      -0.14089890779811648,
+      -0.12530400599937894,
+      0.7449206701010331
+    ]
+  ],
+  "anchor_snap_m": [
+    0.001924942416911372,
+    0.0013257231538217214,
+    0.0031473985093806544,
+    0.0012948925520431525
+  ],
+  "program_dir": "${REKEP_ROOT}/project2_evidence/09_vision_execution/retail_v1/program",
+  "hover_goal": [
+    -0.29998117685317993,
+    0.15002211928367615,
+    0.866099502919679
+  ],
+  "prerelease_goal": [
+    -0.29998117685317993,
+    0.15002211928367615,
+    0.771099502919679
+  ],
+  "original_grasp_depth_m": 0.1,
+  "test_grasp_depth_m": 0.04,
+  "grasp_target_center": [
+    -0.14098026870725083,
+    -0.1458336099172493,
+    0.724099502919679
+  ],
+  "grasp_pre_target": [
+    -0.14140414283267422,
+    -0.14492586938255705,
+    0.7640869551746986
+  ],
+  "grasp_pre_adjustment_m": 0.03333443720541407,
+  "grasp_approach_axis": [
+    0.010596853135584783,
+    -0.022693513367306573,
+    -0.9996863063754903
+  ],
+  "grasp_orientation_adjusted": false,
+  "pregrasp_error_m": 0.029381292163281773,
+  "grasp_verified": true,
+  "grasp_contact_error_m": 0.0945730648488463,
+  "post_grasp_position": [
+    -0.22946925461292267,
+    -0.1621294766664505,
+    0.7282241582870483
+  ],
+  "release_called": true,
+  "box_prerelease_position": [
+    -0.3022671341896057,
+    0.13448713719844818,
+    0.7682090401649475
+  ],
+  "video_path": "${REKEP_ROOT}/videos/2026-11-05-16-34-33.mp4",
+  "box_final": [
+    -0.30392375588417053,
+    0.13225141167640686,
+    0.7161722183227539
+  ],
+  "goal_xy_error_m": 0.01820280138546442,
+  "goal_z_error_m": 0.00019371509552001953,
+  "success_criterion": "Grasp + release + final XY<=0.08m and Z<=0.06m"
+}

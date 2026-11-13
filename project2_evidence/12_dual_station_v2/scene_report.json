@@ -1,0 +1,59 @@
+{
+  "status": "scene_verified",
+  "task": "industrial_logistics_dual_station",
+  "station_type": "two_physical_supports",
+  "task_executed": false,
+  "station_A_center": [
+    -0.139824,
+    -0.150199
+  ],
+  "station_B_center": [
+    0.05,
+    0.3
+  ],
+  "station_A_aabb": [
+    [
+      -0.24982400238513947,
+      -0.26019901037216187,
+      0.0
+    ],
+    [
+      -0.02982400357723236,
+      -0.04019899666309357,
+      0.6859999895095825
+    ]
+  ],
+  "station_B_aabb": [
+    [
+      -0.05999999865889549,
+      0.1900000125169754,
+      0.0
+    ],
+    [
+      0.1599999964237213,
+      0.4100000262260437,
+      0.6859999895095825
+    ]
+  ],
+  "station_center_distance_m": 0.4885819179799842,
+  "stations_physically_separate": true,
+  "station_supports_collidable": true,
+  "box_xyz": [
+    -0.1398238241672516,
+    -0.150198832154274,
+    0.7184999585151672
+  ],
+  "box_stable": true,
+  "box_height_error_m": 4.1484832791205406e-08,
+  "box_xy_error_m": 2.43082996436334e-07,
+  "station_B_visual_detected": true,
+  "station_B_visual_xyz": [
+    0.0506125214300272,
+    0.29989731241686984,
+    0.6901257934913964
+  ],
+  "station_B_visual_error_m": 0.0006210694340986969,
+  "station_B_visual_error_message": null,
+  "scene_verified": true,
+  "saved_scene_file": "${REKEP_ROOT}/configs/og_scene_file_dual_station_v2.json"
+}

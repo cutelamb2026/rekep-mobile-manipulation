@@ -1,0 +1,24 @@
+# Design template, not executable task until scene + constraint files are validated.
+scenario: logistics
+task_id: logistics_single_tote_pick_place
+robot: Fetch
+scene_file: "TODO: absolute or repo-relative valid OmniGibson JSON"
+object_instance: "TODO: object_registry name of real tote/small box"
+place_target_instance: "TODO: target region/container name"
+observation_source: "sim_rgbd" # distinguish from oracle
+expected_stage_order: [approach, pregrasp, grasp, transport, place]
+# All units and frames must be confirmed from the running simulator.
+keypoints:
+  - {name: object_center, frame: world, semantics: geometry_center, source: TODO}
+  - {name: grasp_left, frame: world, semantics: graspable_left_surface, source: TODO}
+  - {name: grasp_right, frame: world, semantics: graspable_right_surface, source: TODO}
+  - {name: place_center, frame: world, semantics: placement_target, source: TODO}
+criteria:
+  base_distance_m: null
+  ee_grasp_error_m: null
+  place_translation_error_m: null
+  place_orientation_error_deg: null
+  stable_after_release_s: null
+program_dir: "TODO: matching new constraints and metadata (NOT pen cache)"
+scene_ready: false
+full_rollout_verified: false
